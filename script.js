@@ -74,12 +74,76 @@
 //     div.innerHTML = e 
 // }
 
-let div = document.getElementById('out')
+// let div = document.getElementById('out')
 
-let myHappy = prompt('Введите любое число')
-if (myHappy < 100 ){
-    console.log(myHappy)
+// let myHappy = prompt('Введите любое число')
+// if (myHappy < 100 ){
+//     console.log(myHappy)
+// }
+// else{
+//     div.innerHTML = myHappy
+// }
+
+
+// УРОК 4
+
+
+// let year = prompt('когда вышел ходячий замок Хаяо Миядзаки?')
+
+// if (year < 2004){
+//     alert('Рано')
+// }
+// else if(year > 2004){
+//     alert('Поздно')
+// }
+// else{
+//     alert('Верно')
+// }
+
+// console.log(5 % 2)
+
+// console.log(2 ** 2)
+
+// a = 10
+// b = 5
+// console.log(a == b)
+
+// a = 10
+// b = 9
+
+// if (a>b || a-1===b){
+//     console.log(true)
+// }
+// else{
+//     console.log(false)
+// }
+
+// a = 10
+// b = 9
+
+// if (a>b && b+1===a){
+//     console.log(true)
+// }
+// else{
+//     console.log(false)
+// }
+
+// let a = +prompt('Введите первое число')
+// let b = +prompt('Введите второе число')
+
+
+// if(a+b>15){
+//     alert('Да')
+// }
+// else{
+//     alert('Нет')
+// }
+
+let a = prompt('Введите первое число')
+let b = prompt('Введите второе число')
+if (a===b){
+    console.log('a = b', true)
 }
 else{
-    div.innerHTML = myHappy
+    console.log(false)
 }
