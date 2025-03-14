@@ -139,11 +139,46 @@
 //     alert('Нет')
 // }
 
-let a = prompt('Введите первое число')
-let b = prompt('Введите второе число')
-if (a===b){
-    console.log('a = b', true)
+// let a = prompt('Введите первое число')
+// let b = prompt('Введите второе число')
+// if (a===b){
+//     console.log('a = b', true)
+// }
+// else{
+//     console.log(false)
+// }
+
+
+// УРОК 5
+
+
+// let i = 0
+// while (i<3){
+//     console.log(i)
+//     i++
+// }
+
+// let i = 0
+// do{
+//     console.log(i)
+//     i++
+// }while (i < 3)
+
+// for (let i = 0; i < 3; i++){
+//     console.log(i)
+// }
+
+for (let i = 1; i<51; i++){
+    console.log(i)
 }
-else{
-    console.log(false)
+
+for (let i = 50; i>24; i--){
+    console.log(i)
 }
+
+
+for (let i = 2500; i < 3000; i += 1) {
+    if (i % 2 !== 0) {
+      console.log(i);
+    }
+  }
