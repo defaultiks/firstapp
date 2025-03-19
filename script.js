@@ -168,17 +168,45 @@
 //     console.log(i)
 // }
 
-for (let i = 1; i<51; i++){
-    console.log(i)
-}
+// for (let i = 1; i<51; i++){
+//     console.log(i)
+// }
 
-for (let i = 50; i>24; i--){
-    console.log(i)
-}
+// for (let i = 50; i>24; i--){
+//     console.log(i)
+// }
 
 
-for (let i = 2500; i < 3000; i += 1) {
-    if (i % 2 !== 0) {
-      console.log(i);
-    }
-  }
+// for (let i = 2500; i < 3000; i += 1) {
+//     if (i % 2 !== 0) {
+//       console.log(i);
+//     }
+//   }
+
+
+// УРОК 6
+
+// let a = +prompt('Введите цифру')
+// let b = 4
+
+// switch(a){
+//     case 4:
+//     alert('Верно')
+//     break
+//     case !4:
+//     alert('Не верно')
+//     break
+//     default:
+//     alert('не сработало')
+//     break
+    
+// }
+
+let a
+let b = 1
+let c = 2
+
+alert(b ?? "неизвестно");  
+alert(a ?? "неизвестно"); 
+alert(c ?? "неизвестно");  
+
